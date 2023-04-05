@@ -69,3 +69,21 @@
 #   return list(range(min(lst1), max(lst2)+1)) == list(lst3)
 
 # print(consecutive_combo([3, 1, 4, 6, 5], [2, 7, 8, 9]))
+
+
+# =======================================
+# Day_3
+# =======================================
+# Write a function that takes an array of numbers and finds the second lowest
+# and second greatest number
+
+# def second_lowest_and_highst_num(arr):
+#   min_num = min(arr)
+#   max_num = max(arr)
+  
+#   arr_sort = sorted(set(arr) ) 
+  
+#   return (arr_sort[arr_sort.index(min_num) + 1], arr_sort[arr_sort.index(max_num) - 1] )
+    
+# print(second_lowest_and_highst_num([3,10,9, 0, 9, 4, 1,3,5])  )
+
